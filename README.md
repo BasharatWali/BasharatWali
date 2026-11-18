@@ -36,11 +36,11 @@ I build machine-learning systems end to end: preparing real-world data, training
 ### Latest repositories
 
 <!-- LATEST-REPOS:START -->
-- **[Multi-Purpose MLP for Joint Age, Gender and Ethnicity Prediction](https://github.com/BasharatWali/Multi-Purpose-MLP-Classification-Regression)**: A single PyTorch multilayer perceptron that predicts gender (binary classification), ethnicity (5-class classification) and age (regression) from 48… <sub>Jupyter Notebook · Oct 2026</sub>
-- **[TableTalk CodeGen](https://github.com/BasharatWali/TableTalk_CodeGen)**: CodeLlama-7B-Instruct fine-tuned with QLoRA to answer natural-language questions about tables. <sub>Jupyter Notebook · Mar 2025</sub>
-- **[Underwater Image Enhancement](https://github.com/BasharatWali/Underwater-Image-Enhancement)**: A classical, non-learning image-processing pipeline for enhancing underwater photographs. <sub>Jupyter Notebook · Mar 2025</sub>
-- **[Medicine Rec System](https://github.com/BasharatWali/Medicine_Rec_System)**: A retrieval-based medicine recommendation system. Drug and disease descriptions are embedded with PubMedBERT and ClinicalBERT, and a disease or… <sub>Jupyter Notebook · Jan 2025</sub>
-- **[Time-Series-Based Crop Type Mapping with Sentinel-2](https://github.com/BasharatWali/Time-Series-Based-Crop-Type-Mapping)**: Pixel-wise crop-type mapping of Ontario farmland from a six-month Sentinel-2 time series, using a U-Net that shares 2D convolutions across months and… <sub>Jupyter Notebook · Jan 2025</sub>
+- **[Multi-Purpose MLP for Joint Age, Gender and Ethnicity Prediction](https://github.com/BasharatWali/Multi-Purpose-MLP-Classification-Regression)**: One PyTorch MLP that jointly predicts age, gender and ethnicity from 48×48 face images. <sub>Jupyter Notebook · Oct 2026</sub>
+- **[TableTalk CodeGen](https://github.com/BasharatWali/TableTalk_CodeGen)**: QLoRA fine-tuned CodeLlama-7B that answers questions about tables by writing pandas code. Rank 13 on SemEval-2025 Task 8. <sub>Jupyter Notebook · Mar 2025</sub>
+- **[Underwater Image Enhancement](https://github.com/BasharatWali/Underwater-Image-Enhancement)**: Underwater image enhancement: DIRS-CLAHS reproduced and extended with colour compensation, adaptive CLAHE and MSRCR, scored on UIEB. <sub>Jupyter Notebook · Mar 2025</sub>
+- **[Medicine Rec System](https://github.com/BasharatWali/Medicine_Rec_System)**: Medicine recommendation from symptom queries using PubMedBERT and ClinicalBERT embeddings, comparing LSH, SimHash and FAISS search. <sub>Jupyter Notebook · Jan 2025</sub>
+- **[Time-Series-Based Crop Type Mapping with Sentinel-2](https://github.com/BasharatWali/Time-Series-Based-Crop-Type-Mapping)**: Crop-type mapping of Ontario farmland from a six-month Sentinel-2 time series with a temporal U-Net in TensorFlow. <sub>Jupyter Notebook · Jan 2025</sub>
 <!-- LATEST-REPOS:END -->
 
 
