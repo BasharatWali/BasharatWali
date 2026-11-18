@@ -43,7 +43,6 @@ I build machine-learning systems end to end: preparing real-world data, training
 - **[Time-Series-Based Crop Type Mapping with Sentinel-2](https://github.com/BasharatWali/Time-Series-Based-Crop-Type-Mapping)**: Pixel-wise crop-type mapping of Ontario farmland from a six-month Sentinel-2 time series, using a U-Net that shares 2D convolutions across months and… <sub>Jupyter Notebook · Jan 2025</sub>
 <!-- LATEST-REPOS:END -->
 
-<sub>This list updates automatically through a GitHub Action whenever I publish a new repository.</sub>
 
 ### Tech stack
 
