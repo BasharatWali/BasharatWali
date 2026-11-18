@@ -1,0 +1,30 @@
+name: Update latest repositories
+
+on:
+  schedule:
+    - cron: "0 * * * *"         # hourly; commits only when the list changes
+  workflow_dispatch:            # "Run workflow" button in the Actions tab
+  repository_dispatch:
+    types: [repo-updated]       # optional instant trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh the latest-repos block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_readme.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "Nothing to commit"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update latest repositories"
+          git push
