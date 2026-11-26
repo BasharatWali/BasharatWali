@@ -36,7 +36,7 @@ I build machine-learning systems end to end: preparing real-world data, training
 ### Latest repositories
 
 <!-- LATEST-REPOS:START -->
-- **[XrayTarteeb](https://github.com/BasharatWali/XrayTarteeb)**: On-premise chest X-ray triage for TB and other abnormalities. Tarteeb (ترتیب) is Urdu for order or priority. <sub>Jupyter Notebook · Nov 2026</sub>
+- **[XrayTarteeb](https://github.com/BasharatWali/XrayTarteeb)**: On-premise chest X-ray triage for TB and other abnormalities. Scores every film and reorders the radiologist's worklist so urgent X-rays are read… <sub>Jupyter Notebook · Nov 2026</sub>
 - **[Multi-Purpose MLP for Joint Age, Gender and Ethnicity Prediction](https://github.com/BasharatWali/Multi-Purpose-MLP-Classification-Regression)**: One PyTorch MLP that jointly predicts age, gender and ethnicity from 48×48 face images. <sub>Jupyter Notebook · Oct 2026</sub>
 - **[TableTalk CodeGen](https://github.com/BasharatWali/TableTalk_CodeGen)**: QLoRA fine-tuned CodeLlama-7B that answers questions about tables by writing pandas code. Rank 13 on SemEval-2025 Task 8. <sub>Jupyter Notebook · Mar 2025</sub>
 - **[Underwater Image Enhancement](https://github.com/BasharatWali/Underwater-Image-Enhancement)**: Underwater image enhancement: DIRS-CLAHS reproduced and extended with colour compensation, adaptive CLAHE and MSRCR, scored on UIEB. <sub>Jupyter Notebook · Mar 2025</sub>
